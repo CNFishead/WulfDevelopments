@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,53 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+/* ----------------------------NavBar CSS------------------------------------------ */
+header{
+  background-color: #1c2b2d;
+  border-bottom: #1f6f8b;
+  border-style: inset;
+  border-width: 0 0 2px;
+  position: absolute;
+  width: 100%;
+}
+
+.pages{
+  color: #99a8b2;
+  position: relative;
+  padding-right: 1%;
+  margin: 1% 0 .5%;
+  float: right;
+  top: 0%;
+  
+}
+
+.pages a {
+  background-color: #1f6f8b;
+  border: blanchedalmond;
+  border-style: double;
+  border-radius: 10%;
+  padding: 5px;
+  
+}
+.pages img{
+  margin-bottom: 10%;
+}
+
+#pageIcon {
+  border: #99a8b2;
+  border-style: double;
+  display: inline-block;
+  border-radius: 50%;
+}
+#pageIcon img{
+  border-radius: 50%;
+}
+.navBar h1{
+  display: inline-block;
+  padding-left: 2%;
+  color: #e6d5b8;
 }
