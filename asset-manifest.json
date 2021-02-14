@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/WulfDevelopments/static/css/main.3a8c76b5.chunk.css",
+    "main.js": "/WulfDevelopments/static/js/main.975f2e18.chunk.js",
+    "main.js.map": "/WulfDevelopments/static/js/main.975f2e18.chunk.js.map",
+    "runtime-main.js": "/WulfDevelopments/static/js/runtime-main.339a59c3.js",
+    "runtime-main.js.map": "/WulfDevelopments/static/js/runtime-main.339a59c3.js.map",
+    "static/js/2.b8c5f8ab.chunk.js": "/WulfDevelopments/static/js/2.b8c5f8ab.chunk.js",
+    "static/js/2.b8c5f8ab.chunk.js.map": "/WulfDevelopments/static/js/2.b8c5f8ab.chunk.js.map",
+    "index.html": "/WulfDevelopments/index.html",
+    "static/css/main.3a8c76b5.chunk.css.map": "/WulfDevelopments/static/css/main.3a8c76b5.chunk.css.map",
+    "static/js/2.b8c5f8ab.chunk.js.LICENSE.txt": "/WulfDevelopments/static/js/2.b8c5f8ab.chunk.js.LICENSE.txt",
+    "static/media/WulfBrandingLogoLightSmall.95c9816e.png": "/WulfDevelopments/static/media/WulfBrandingLogoLightSmall.95c9816e.png",
+    "static/media/logo.6ce24c58.svg": "/WulfDevelopments/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.339a59c3.js",
+    "static/js/2.b8c5f8ab.chunk.js",
+    "static/css/main.3a8c76b5.chunk.css",
+    "static/js/main.975f2e18.chunk.js"
+  ]
+}
