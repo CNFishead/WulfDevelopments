@@ -2,14 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import Nav from './Components/Navbar';
 import Intro from './Components/Intro';
-import BlogLink from './Components/BlogLink';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   return (
-    <div>
+    <div className="container-fluid App">
       <Nav/>
+      {/* <BlogLink/> */}
       <Intro/>    
-      <BlogLink/>  
+        
     </div>
   );
 }

@@ -7,23 +7,21 @@ import Icon from "./Icons/WulfBrandingLogoLightSmall.png"
 function Nav(){
     return (
   <div>
-    {/* <header> */}
-      <div className = "navBar">
+      <div className = "container-fluid navBar">
         <div id="pageIcon">
           <img src={Icon} alt="Page Icon"/>
         </div>
         <h1>Wulf Developments</h1>
         <div className = "pages">
-            <a href="#"><img src= {Home} alt="Home"/>Home</a>
+          <button className ="btn btn-small btn-primary"><a href="#"><img src= {Home} alt="Home"/>Home</a></button>
         </div>
         <div className = "pages">
-            <a href="#"><img src={Skills} alt="Skills"/>Skills</a>
+          <button className ="btn btn-small btn-primary"><a href="#"><img src={Skills} alt="Skills"/>Skills</a></button>
         </div>
         <div className = "pages">
-          <a href="#"><img src={About} alt="About Me"/>About Me</a>
+          <button className ="btn btn-small btn-primary"><a href="#"><img src={About} alt="About Me"/>About Me</a></button>
         </div>
       </div>
-    {/* </header> */}
   </div>)
 };
 
