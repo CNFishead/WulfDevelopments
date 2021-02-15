@@ -6,16 +6,6 @@ body{
   background-size: cover;
 }
 /* ----------------------------NavBar CSS------------------------------------------ */
-header{
-  background-color: #1c2b2d;
-  border-bottom: #1f6f8b;
-  border-style: inset;
-  border-width: 0 0 2px;
-  position: absolute;
-  width: 100%;
-  opacity: 50%;
-}
-
 .pages{
   color: #99a8b2;
   position: relative;
@@ -77,4 +67,38 @@ header{
   height: 80%;
   width: 50%;
   margin-left: 45%;
+}
+@media (max-device-width: 480px){
+  /* ----------------------------NavBar CSS------------------------------------------ */
+  
+  /* -----------Blog site Link----------------- */
+  .wulfLogo{
+    height: 25rem;
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    margin-top: 15rem;
+    display: inline-block;
+  }
+
+  /* -------------Typewriter--------------- */
+  .typeWriterParent{
+    position: absolute;
+    margin: 10% 5%;
+    width: 90%;
+  }
+  .typeWriter {
+    display: inline-block;
+    color: #e6d5b8;
+    position: relative;
+    
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .helloWorld{
+    color:#e6d5b8;
+    position: relative;
+    display: inline-block;
+  
+  }
 }

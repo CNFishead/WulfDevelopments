@@ -3,8 +3,8 @@ import Wolf from "./Images/wulfbrandinglogoblue.png";
 
 function BlogLink(){
     return(
-        <div>
-            <img src={Wolf} alt="Logo" className="wulfLogo"/>
+        <div className="blogLink">
+            <a href="https://wordpress.com/page/wulfdevblog.wordpress.com/67"><img src={Wolf} alt="Logo" className="wulfLogo"/></a>
         </div>
     ) 
 }
