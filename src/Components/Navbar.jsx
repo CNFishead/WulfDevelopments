@@ -6,26 +6,25 @@ import Icon from "./Icons/WulfBrandingLogoLightSmall.png"
 
 function Nav(){
     return (
-    <div>
-      <header>
-        <div className = "navBar">
+  <div>
+    {/* <header> */}
+      <div className = "navBar">
         <div id="pageIcon">
           <img src={Icon} alt="Page Icon"/>
-          
         </div>
         <h1>Wulf Developments</h1>
         <div className = "pages">
-            <a href="#"><img src={Skills} alt="Skills"/></a>
-          </div>
-          <div className = "pages">
-            <a href="#"><img src={About} alt="About Me"/></a>
-          </div>
-          <div className = "pages">
-            <a href="#"><img src= {Home} alt="Home"/></a>
-          </div>
+            <a href="#"><img src= {Home} alt="Home"/>Home</a>
         </div>
-        </header>
-    </div>)
+        <div className = "pages">
+            <a href="#"><img src={Skills} alt="Skills"/>Skills</a>
+        </div>
+        <div className = "pages">
+          <a href="#"><img src={About} alt="About Me"/>About Me</a>
+        </div>
+      </div>
+    {/* </header> */}
+  </div>)
 };
 
 export default Nav;
