@@ -29,7 +29,7 @@ function Intro() {
             .deleteAll()
 
             .typeString("a Software Developer!")
-            <a>{.typeString("Check out my blog")}</a> 
+            .typeString("Check out my blog")
             .start(); 
             }} 
             /> 
