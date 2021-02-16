@@ -14,11 +14,7 @@ function Nav(){
         <h1>Wulf Developments</h1>
         <div className = "pages">
           <button className ="btn btn-small btn-primary"><a href="#"><img src= {Home} alt="Home"/>Home</a></button>
-        </div>
-        <div className = "pages">
           <button className ="btn btn-small btn-primary"><a href="#"><img src={Skills} alt="Skills"/>Skills</a></button>
-        </div>
-        <div className = "pages">
           <button className ="btn btn-small btn-primary"><a href="#"><img src={About} alt="About Me"/>About Me</a></button>
         </div>
       </div>

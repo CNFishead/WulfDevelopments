@@ -70,8 +70,15 @@ body{
   /* ---------------NavBar CSS------------------- */
   .navBar{
     text-align: center;
-    position: absolute;
+    position: relative;
     font-size: 1rem;
+  }
+  .pages{
+    position: relative;
+    width: 100%;
+  }
+  .pages button{
+    margin-right: 2%;
   }
   .navBar h1{
     font-size: 2rem;
@@ -83,24 +90,24 @@ body{
 
   /* -----------Blog site Link----------------- */
   .wulfLogo{
-    height: 25rem;
+    height: 30rem;
     width: 100%;
     margin-left: 0;
     position: relative;
-    padding-top: 10%;
-    left: 0;
+    padding: 10% 0 0 0;
   }
 
   /* -------------Typewriter--------------- */
   .typeWriterParent{
-    position: relative;
-    margin: auto 5%;
-    width: 90%;
+    /* position: relative; */
+    text-align: center;
+    margin: auto;
+    width: 100%;
   }
   .typeWriter {
     color: #e6d5b8;
     position: relative;
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
