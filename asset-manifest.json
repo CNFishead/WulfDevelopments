@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WulfDevelopments/static/css/main.73140978.chunk.css",
+    "main.css": "/WulfDevelopments/static/css/main.23d361cc.chunk.css",
     "main.js": "/WulfDevelopments/static/js/main.5800eab3.chunk.js",
     "main.js.map": "/WulfDevelopments/static/js/main.5800eab3.chunk.js.map",
     "runtime-main.js": "/WulfDevelopments/static/js/runtime-main.339a59c3.js",
@@ -10,7 +10,7 @@
     "static/js/2.4db94f96.chunk.js.map": "/WulfDevelopments/static/js/2.4db94f96.chunk.js.map",
     "index.html": "/WulfDevelopments/index.html",
     "static/css/2.150d169a.chunk.css.map": "/WulfDevelopments/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.73140978.chunk.css.map": "/WulfDevelopments/static/css/main.73140978.chunk.css.map",
+    "static/css/main.23d361cc.chunk.css.map": "/WulfDevelopments/static/css/main.23d361cc.chunk.css.map",
     "static/js/2.4db94f96.chunk.js.LICENSE.txt": "/WulfDevelopments/static/js/2.4db94f96.chunk.js.LICENSE.txt",
     "static/media/WulfBrandingLogoLightSmall.95c9816e.png": "/WulfDevelopments/static/media/WulfBrandingLogoLightSmall.95c9816e.png",
     "static/media/logo.6ce24c58.svg": "/WulfDevelopments/static/media/logo.6ce24c58.svg",
@@ -20,7 +20,7 @@
     "static/js/runtime-main.339a59c3.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.4db94f96.chunk.js",
-    "static/css/main.73140978.chunk.css",
+    "static/css/main.23d361cc.chunk.css",
     "static/js/main.5800eab3.chunk.js"
   ]
 }
