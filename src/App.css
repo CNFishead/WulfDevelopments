@@ -6,8 +6,9 @@ body{
   background-size: cover;
 }
 /* ----------------------------NavBar CSS------------------------------------------ */
-.pages{
-  padding-right: 1%;
+.pages button{
+  /* padding-right: 1%; */
+  margin-right: 5px;  
 }
 
 .pages a {
@@ -28,6 +29,7 @@ body{
   flex: auto;
   padding-left: 2%;
   color: #e6d5b8;
+  width: 20%;
 }
 
 /* ----------------------------Typewriter CSS-------------------------------- */
@@ -61,7 +63,7 @@ body{
 
 
 /* -------------------------------------Small mobile screens-------------------------------- */
-@media (max-device-width: 480px){
+@media (max-device-width: 640px){
   /*------------------App CSS---------------------*/
   .app{
     position: absolute;
@@ -82,6 +84,7 @@ body{
   }
   .navBar h1{
     font-size: 2rem;
+    width: 100%;
   }
   #pageIcon{
     position: relative;
@@ -89,6 +92,9 @@ body{
   }
 
   /* -----------Blog site Link----------------- */
+  .blogLink{
+    position: relative;
+  }
   .wulfLogo{
     height: 30rem;
     width: 100%;
