@@ -1,5 +1,5 @@
 import React from "react"
-import Home from "./Icons/home.png"
+import Blog from "./Icons/blog.png"
 import About from "./Icons/profile.png"
 import Skills from "./Icons/settings.png"
 import Icon from "./Icons/WulfBrandingLogoLightSmall.png"
@@ -9,13 +9,13 @@ function Nav(){
   <div>
       <div className = "container-fluid navBar">
         <div id="pageIcon">
-          <img src={Icon} alt="Page Icon"/>
+          <a href="../public/index.html"><img src={Icon} alt="Page Icon"/></a>
         </div>
         <h1>Wulf Developments</h1>
         <div className = "pages">
-          <button className ="btn btn-small btn-primary"><a href="#"><img src= {Home} alt="Home"/>Home</a></button>
+          <button className ="btn btn-small btn-primary"><a href="https://wordpress.com/page/wulfdevblog.wordpress.com/67"><img src= {Blog} alt="Home"/>Blog</a></button>
           <button className ="btn btn-small btn-primary"><a href="#"><img src={Skills} alt="Skills"/>Skills</a></button>
-          <button className ="btn btn-small btn-primary"><a href="#"><img src={About} alt="About Me"/>About Me</a></button>
+          <button className ="btn btn-small btn-primary"><a href="#"><img src={About} alt="About Me"/>About</a></button>
         </div>
       </div>
   </div>)

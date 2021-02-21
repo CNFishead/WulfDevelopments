@@ -36,9 +36,6 @@ function Intro() {
             }} 
             /> 
         </div>
-        <div className="container container-fluid blogLink">
-            <a href="https://wordpress.com/page/wulfdevblog.wordpress.com/67"><img src={Wolf} alt="Logo" className="wulfLogo"/></a>
-        </div> 
     </div>
   ); 
 } 

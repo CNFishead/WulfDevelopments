@@ -7,11 +7,13 @@ body{
 }
 /* ----------------------------NavBar CSS------------------------------------------ */
 .pages button{
-  /* padding-right: 1%; */
+  height: auto;
+  width: auto;
   margin-right: 5px;  
 }
 
 .pages a {
+  padding: 1%;
   color: #e6d5b8;
 }
 
@@ -49,18 +51,6 @@ body{
   height: 10px;
 }
 
-/* --------------------------------Blog Link---------------------------------------------- */
-.blogLink{
-  display: block;
-  position: absolute;
-}
-.wulfLogo{
-  position: relative;
-  height: 80%;
-  width: auto;
-  margin-left:45%;
-}
-
 
 /* -------------------------------------Small mobile screens-------------------------------- */
 @media (max-device-width: 640px){
@@ -91,21 +81,8 @@ body{
     margin: auto;
   }
 
-  /* -----------Blog site Link----------------- */
-  .blogLink{
-    position: relative;
-  }
-  .wulfLogo{
-    height: 30rem;
-    width: 100%;
-    margin-left: 0;
-    position: relative;
-    padding: 10% 0 0 0;
-  }
-
   /* -------------Typewriter--------------- */
   .typeWriterParent{
-    /* position: relative; */
     text-align: center;
     margin: auto;
     width: 100%;
@@ -115,5 +92,47 @@ body{
     position: relative;
     width: 100%;
     font-size: 1.5rem;
+  }
+}
+
+/* ------------------------------------Tablet Screens--------------------------------------- */
+@media (max-device-width: 1280px){
+  /*------------------App CSS---------------------*/
+  .app{
+    position: absolute;
+  }
+
+  /* ---------------NavBar CSS------------------- */
+  .navBar{
+    text-align: center;
+    position: relative;
+    font-size: 1rem;
+  }
+  .pages{
+    position: relative;
+    width: 100%;
+  }
+  .pages button{
+    margin-right: 2%;
+  }
+  .navBar h1{
+    font-size: 2rem;
+    width: 100%;
+  }
+  #pageIcon{
+    position: relative;
+    margin: auto;
+  }
+
+
+  /* -------------Typewriter--------------- */
+  .typeWriterParent{
+    position: relative;
+    text-align: center;
+    margin-top: 1%;
+  }
+  .typeWriter {
+    margin-top: 5%;
+    font-size: 2rem;
   }
 }
