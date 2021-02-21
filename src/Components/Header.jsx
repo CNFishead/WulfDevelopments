@@ -9,11 +9,11 @@ function Header(){
   <div>
       <div className = "container-fluid navBar">
         <div id="pageIcon">
-          <a href="../public/index.html"><img src={Icon} alt="Page Icon"/></a>
+          <a href="https://cnfishead.github.io/WulfDevelopments/"><img src={Icon} alt="Page Icon"/></a>
         </div>
         <h1>Wulf Developments</h1>
         <div className = "pages">
-          <button className ="btn btn-small btn-primary"><a href="https://wordpress.com/page/wulfdevblog.wordpress.com/67"><img src= {Blog} alt="Home"/>Blog</a></button>
+          <button className ="btn btn-small btn-primary"><a href="https://wulfdevblog.wordpress.com/"><img src= {Blog} alt="Home"/>Blog</a></button>
           <button className ="btn btn-small btn-primary"><a href="#"><img src={Skills} alt="Skills"/>Skills</a></button>
           <button className ="btn btn-small btn-primary"><a href="#"><img src={About} alt="About Me"/>About</a></button>
         </div>
