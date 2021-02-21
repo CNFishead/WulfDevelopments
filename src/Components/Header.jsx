@@ -4,7 +4,7 @@ import About from "./Icons/profile.png"
 import Skills from "./Icons/settings.png"
 import Icon from "./Icons/WulfBrandingLogoLightSmall.png"
 
-function Nav(){
+function Header(){
     return (
   <div>
       <div className = "container-fluid navBar">
@@ -21,4 +21,4 @@ function Nav(){
   </div>)
 };
 
-export default Nav;
+export default Header;

@@ -5,6 +5,23 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
+.app{
+  position: relative;
+}
+footer{
+  position: fixed;
+  font-size: 1.2rem;
+  text-align: center;
+  bottom: 0; 
+  width: 100%;
+}
+.iconAttribute{
+  font-size: 1rem;
+}
+.social{
+  display: inline-block;
+  padding-right: 1%;
+}
 /* ----------------------------NavBar CSS------------------------------------------ */
 .pages button{
   height: auto;
@@ -49,6 +66,11 @@ body{
   color:#e6d5b8;
   position: relative;
   height: 10px;
+}
+
+/*----------------------------Footer---------------------------------------*/
+footer{
+  color: #e6d5b8;
 }
 
 
