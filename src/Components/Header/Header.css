@@ -1,0 +1,74 @@
+/* ---------------NavBar CSS------------------- */
+.pages button {
+  height: auto;
+  width: auto;
+  margin-right: 5px;
+}
+
+.pages a {
+  padding: 1%;
+  color: #e6d5b8;
+}
+
+#pageIcon {
+  border: #99a8b2;
+  border-style: double;
+  display: inline-block;
+  border-radius: 50%;
+}
+#pageIcon img {
+  border-radius: 50%;
+}
+.navBar h1 {
+  display: inline-block;
+  flex: auto;
+  padding-left: 2%;
+  color: #e6d5b8;
+  width: 20%;
+}
+
+@media (max-device-width: 640px) {
+  .navBar {
+    text-align: center;
+    position: relative;
+    font-size: 1rem;
+  }
+  .pages {
+    position: relative;
+    width: 100%;
+  }
+  .pages button {
+    margin-right: 2%;
+  }
+  .navBar h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  #pageIcon {
+    position: relative;
+    margin: auto;
+  }
+}
+
+@media (max-device-width: 1280px) {
+  .navBar {
+    text-align: center;
+    position: relative;
+    font-size: 1rem;
+  }
+  .pages {
+    position: relative;
+    width: 100%;
+  }
+  .pages button {
+    margin-right: 2%;
+  }
+  .navBar h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  #pageIcon {
+    position: relative;
+    margin: auto;
+  }
+}

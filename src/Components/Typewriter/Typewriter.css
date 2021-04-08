@@ -1,0 +1,40 @@
+.typeWriterParent {
+  position: absolute;
+  display: block;
+}
+.typeWriter {
+  color: #e6d5b8;
+  margin-top: 10%;
+  margin-right: 1%;
+  font-size: 3rem;
+}
+.typeWriterIntro {
+  color: #e6d5b8;
+  position: relative;
+  height: 10px;
+}
+@media (max-device-width: 640px) {
+  .typeWriterParent {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+  .typeWriter {
+    color: #e6d5b8;
+    position: relative;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-device-width: 1280px) {
+  .typeWriterParent {
+    position: relative;
+    text-align: center;
+    margin-top: 1%;
+  }
+  .typeWriter {
+    margin-top: 5%;
+    font-size: 2rem;
+  }
+}

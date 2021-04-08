@@ -1,0 +1,14 @@
+footer {
+  position: fixed;
+  font-size: 1.2rem;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+.iconAttribute {
+  font-size: 1rem;
+}
+.social {
+  display: inline-block;
+  padding-right: 1%;
+}

@@ -1,17 +1,20 @@
-import logo from './logo.svg';
+import Home from './screens/Home'
+import Skills from './screens/Skills'
+import Projects from './screens/Projects'
+import { Route, Switch } from "react-router-dom";
+
+
 import './App.css';
-import Header from './Components/Header';
-import Intro from './Components/Intro';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import Footer from './Components/Footer';
+
 
 function App() {
   return (
-    <div className="container-fluid App">
-      <Header/>
-      <Intro/>    
-      <Footer/>
-    </div>
+    <Switch>
+        <Route path="/projects" render={() => <Projects />} />
+        <Route path="/skills" render={() => <Skills />} />
+        <Route path="/" render={() => <Home />} />
+      </Switch>
   );
 }
 

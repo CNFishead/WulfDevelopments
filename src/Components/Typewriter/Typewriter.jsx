@@ -1,11 +1,11 @@
 import React from 'react'; 
-//import Wolf Logo
-import Wolf from "./Images/wulfbrandinglogoblue.png";
+
   
 //importing typewriter-effect 
 import Typewriter from "typewriter-effect"; 
- 
-  
+
+import './Typewriter.css'
+
 function Intro() { 
   return ( 
       <div className="conatiner container-fluid">
