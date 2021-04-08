@@ -1,0 +1,24 @@
+.projectContainer {
+  margin: 2% 1%;
+  width: 95%;
+  height: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.projectImages{
+    width: 50%;
+    height: 35%;
+    border-radius: 25%;
+}
+.Images{
+    text-decoration: none; 
+    color: #ffb037; 
+    
+}
+.Images:hover{
+    color:#ffe268;
+}
+.text{
+    margin: 10% 0;
+}

@@ -1,32 +1,26 @@
-import react from "react";
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
-import { useState } from "react";
-import axios from "axios";
-import token from "../token";
-import { useQuery } from "react-query";
-import { QueryClient, QueryClientProvider} from 'react-query'
+import ProjectsData from "../Components/Projects/Projects";
+import ProjectCard from "../Components/Projects/ProjectCard";
 
-const queryClient = new QueryClient()
-
-let userData = async () => {
-  const userRepos = await axios.get("https://api.github.com/users/CNFishead/repos", {
-    headers: {
-      Authorization: token,
-    },
-  });
-  return userRepos.json();
-};
+const ProjectsFile = ProjectsData;
 
 const Projects = () => {
-  const {data, status} = useQuery("Project", userData);
-  console.log(data);
+  console.log(ProjectsFile);
+  const mapProjects = ProjectsFile.map((project, indx) => {
+    return (
+      
+        <ProjectCard key={project.project_name + indx} data={project} />
+      
+    );
+  });
 
   return (
-    <QueryClientProvider client={queryClient}>
+    <div>
       <Header />
+      <div class="projectContainer">{mapProjects}</div>
       <Footer />
-    </QueryClientProvider>
+    </div>
   );
 };
 
