@@ -1,9 +1,9 @@
 /* ---------------NavBar CSS------------------- */
 
 .pages button {
-  height: auto;
-  width: auto;
-  margin-right: 5px;
+  height:50%;
+  width: 30%;
+  margin-right: 3px;
 }
 
 .pages a {
@@ -26,6 +26,10 @@
   padding-left: 2%;
   color: #e6d5b8;
   width: 20%;
+}
+.social{
+  position: relative;
+  margin-right: 5%;
 }
 
 @media (max-device-width: 640px) {
