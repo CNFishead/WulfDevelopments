@@ -12,7 +12,7 @@ function App() {
     <Switch>
       <Route path="/projects" render={() => <Projects />} />
       <Route path="/aboutMe" render={() => <About />} />
-      <Route path="/" render={() => <Home />} />
+      <Route path="/WulfDevelopements" render={() => <Home />} />
     </Switch>
   );
 }

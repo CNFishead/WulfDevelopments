@@ -11,7 +11,7 @@ function Header() {
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
       <div class="container-fluid">
         <div className="brand">
-          <Link to="/" class="navbar-brand">
+          <Link to="/WulfDevelopments" class="navbar-brand">
             <img className="brandingLogo" src={Icon} alt="" />
           </Link>
           <div className="navBarTitles">
