@@ -1,5 +1,5 @@
 import Home from "./screens/Home";
-import Skills from "./screens/Skills";
+import About from "./screens/About";
 import Projects from "./screens/Projects";
 import { Route, Switch } from "react-router-dom";
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <Switch>
       <Route path="/projects" render={() => <Projects />} />
-      <Route path="/skills" render={() => <Skills />} />
+      <Route path="/aboutMe" render={() => <About />} />
       <Route path="/" render={() => <Home />} />
     </Switch>
   );

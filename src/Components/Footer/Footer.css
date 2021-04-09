@@ -9,7 +9,8 @@ footer {
 .iconAttribute {
   font-size: 1rem;
 }
-.social {
+.socialIcons {
   display: inline-block;
+  font-size: 2em;
   padding-right: 1%;
 }

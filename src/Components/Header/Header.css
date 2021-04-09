@@ -1,79 +1,24 @@
 /* ---------------NavBar CSS------------------- */
-
-.pages button {
-  height:50%;
-  width: 30%;
-  margin-right: 3px;
+.brand{
+  display: flex;
+  width: 50%;
 }
-
-.pages a {
-  padding: 1%;
-  color: #e6d5b8;
-}
-
-#pageIcon {
+.brandingLogo {
   border: #99a8b2;
   border-style: double;
   display: inline-block;
   border-radius: 50%;
 }
-#pageIcon img {
+.brandingLogo img {
   border-radius: 50%;
 }
-.navBar h1 {
-  display: inline-block;
-  flex: auto;
-  padding-left: 2%;
+.navBar {
   color: #e6d5b8;
-  width: 20%;
 }
-.social{
-  position: relative;
-  margin-right: 5%;
+.nav-link {
+  font-size: 2em;
 }
-
-@media (max-device-width: 640px) {
-  .navBar {
-    text-align: center;
-    position: relative;
-    font-size: 1rem;
-  }
-  .pages {
-    position: relative;
-    width: 100%;
-  }
-  .pages button {
-    margin-right: 2%;
-  }
-  .navBar h1 {
-    font-size: 2rem;
-    width: 100%;
-  }
-  #pageIcon {
-    position: relative;
-    margin: auto;
-  }
+.navBarTitles{
+  margin: 1% 5%;
 }
 
-@media (max-device-width: 1280px) {
-  .navBar {
-    text-align: center;
-    position: relative;
-    font-size: 1rem;
-  }
-  .pages {
-    position: relative;
-    width: 100%;
-  }
-  .pages button {
-    margin-right: 2%;
-  }
-  .navBar h1 {
-    font-size: 2rem;
-    width: 100%;
-  }
-  #pageIcon {
-    position: relative;
-    margin: auto;
-  }
-}
