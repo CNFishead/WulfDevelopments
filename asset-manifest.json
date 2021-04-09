@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/WulfDevelopments/static/css/main.ced4d2f4.chunk.css",
-    "main.js": "/WulfDevelopments/static/js/main.1e22f5b1.chunk.js",
-    "main.js.map": "/WulfDevelopments/static/js/main.1e22f5b1.chunk.js.map",
+    "main.js": "/WulfDevelopments/static/js/main.5b22cf96.chunk.js",
+    "main.js.map": "/WulfDevelopments/static/js/main.5b22cf96.chunk.js.map",
     "runtime-main.js": "/WulfDevelopments/static/js/runtime-main.339a59c3.js",
     "runtime-main.js.map": "/WulfDevelopments/static/js/runtime-main.339a59c3.js.map",
     "static/css/2.150d169a.chunk.css": "/WulfDevelopments/static/css/2.150d169a.chunk.css",
@@ -29,6 +29,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.d57f2570.chunk.js",
     "static/css/main.ced4d2f4.chunk.css",
-    "static/js/main.1e22f5b1.chunk.js"
+    "static/js/main.5b22cf96.chunk.js"
   ]
 }
