@@ -1,15 +1,16 @@
 import React from "react";
 import Icon from "../../assets/Icons/WulfBrandingLogoLightSmall.png";
+import Download from "../../assets/Icons/dowload.png"
 import { Link } from "react-router-dom";
 import resume from "../../assets/Resume/FastTrackResume.pdf"
 
-
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./Header.css";
 
 function Header() {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-      <div class="container-fluid">
+      <div class="container-fluid contentContainer">
         <div className="brand">
           <Link to="/WulfDevelopments" class="navbar-brand">
             <img className="brandingLogo" src={Icon} alt="" />
@@ -21,7 +22,7 @@ function Header() {
           </div>
         </div>
         <div>
-          <div className="navbar-nav">
+          <div className="navbar-nav navBar-nav">
             <a className="nav-link" href="https://wulfdevblog.wordpress.com/">
               Blog
             </a>

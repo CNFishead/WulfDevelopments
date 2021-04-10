@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Card from "../StyledComponents/Card";
 
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./ProjectCard.css";
 
 const ProjectCard = (props) => {
@@ -15,7 +16,7 @@ const ProjectCard = (props) => {
   } = props.data;
 
   return (
-    <Card className="container-fluid">
+    <div className="container-fluid card projectCard">
       <h3>{project_name}</h3>
       <img className="projectImages" src={project_image} alt={project_name} />
       <div className="container-fluid text">
@@ -26,7 +27,7 @@ const ProjectCard = (props) => {
       <a className="Images" href={project_URL}>
         See the repo for: {project_name}!
       </a>
-    </Card>
+    </div>
   );
 };
 

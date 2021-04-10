@@ -1,5 +1,5 @@
 /* ---------------NavBar CSS------------------- */
-.brand{
+.brand {
   display: flex;
   width: 50%;
 }
@@ -12,13 +12,47 @@
 .brandingLogo img {
   border-radius: 50%;
 }
+
 .navBar {
   color: #e6d5b8;
 }
 .nav-link {
   font-size: 2em;
 }
-.navBarTitles{
+.navBarTitles {
   margin: 1% 5%;
 }
 
+@media (max-device-width: 1001px) {
+  /*--------Header CSS for Small Screens---------------------*/
+  /* ---------------NavBar CSS------------------- */
+  .brand {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .brandingLogo {
+    
+  }
+  .brandingLogo img {
+
+  }
+  .navBar-nav {
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+  }
+  .nav-link {
+    margin-right: 5%;
+    font-size: 1em;
+  }
+  .navBarTitles h1{
+    font-size: 1.5em;
+  }
+  .navBarTitles h3{
+    font-size: 1.25em;
+  }
+  .navBarTitles h6{
+    font-size: .75em;
+  }
+}

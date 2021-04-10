@@ -3,7 +3,7 @@ import React from 'react';
   
 //importing typewriter-effect 
 import Typewriter from "typewriter-effect"; 
-
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import './Typewriter.css'
 
 function Intro() { 

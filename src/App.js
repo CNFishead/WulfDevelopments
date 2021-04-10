@@ -3,8 +3,9 @@ import About from "./screens/About";
 import Projects from "./screens/Projects";
 import { Route, Switch } from "react-router-dom";
 
+
+
 import "./App.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {

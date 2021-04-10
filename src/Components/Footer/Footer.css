@@ -5,6 +5,7 @@ footer {
   text-align: center;
   bottom: 0;
   width: 100%;
+  color: #e6d5b8;
 }
 .iconAttribute {
   font-size: 1rem;
@@ -13,4 +14,17 @@ footer {
   display: inline-block;
   font-size: 2em;
   padding-right: 1%;
+}
+
+@media (max-device-width: 980px){
+  /*------------------App CSS---------------------*/
+  footer{
+    font-size: 1rem;
+  }
+  .iconAttribute{
+    font-size: .75em;
+  }
+  .socialIcons{
+    font-size: 1.75em;
+  }
 }
