@@ -26,11 +26,11 @@ function Header() {
             <a className="nav-link" href="https://wulfdevblog.wordpress.com/">
               Blog
             </a>
-            <Link to="/projects" className="nav-link">
+            <Link to="/WulfDevelopments/projects" className="nav-link">
               Projects
             </Link>
-            <Link to="/aboutMe" className="nav-link">
-              About me
+            <Link to="/WulfDevelopments/aboutMe" className="nav-link">
+              About
             </Link>
             <a href={resume} className="nav-link" download>
               Resume

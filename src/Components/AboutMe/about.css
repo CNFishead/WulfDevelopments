@@ -1,0 +1,41 @@
+.storyText {
+    color: #e6d5b8;
+    text-indent: 40px;
+    line-height: 1.4;
+    text-align: justify;
+    font-size: 1.5em;
+
+}
+.aboutMe {
+    width: 80%;
+}
+
+.aboutMe img {
+    width: 25%;
+    height: 50%;
+    opacity: 1;
+    border-radius: 50%;
+    float: left;
+    shape-outside: inset(1% round 50%);
+    shape-margin: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-device-width: 1024px){
+  .aboutMe img{
+      width: auto;
+  }  
+}
+
+@media (max-device-width: 640px){
+    .aboutMe img{
+        display: block;
+        float: none;
+        width: 100%;
+        height: auto;
+        justify-self: center;
+        align-items: center;
+        text-align: center;
+    }
+}

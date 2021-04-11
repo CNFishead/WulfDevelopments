@@ -1,6 +1,6 @@
 footer {
   display: block;
-  position: fixed;
+  position: static;
   font-size: 1.2rem;
   text-align: center;
   bottom: 0;

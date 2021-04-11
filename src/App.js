@@ -11,10 +11,10 @@ import "./App.css";
 function App() {
   return (
     <Switch>
-      <Route path="/projects" render={() => <Projects />} />
-      <Route path="/aboutMe" render={() => <About />} />
+      <Route path="/WulfDevelopments/projects" render={() => <Projects />} />
+      <Route path="/WulfDevelopments/aboutMe" render={() => <About />} />
       <Route path="/WulfDevelopments" render={() => <Home />} />
-      <Route path="/" render={() => <Home />} />
+      {/* <Route path="/" render={() => <Home />} /> */}
     </Switch>
   );
 }

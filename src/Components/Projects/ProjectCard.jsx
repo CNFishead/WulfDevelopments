@@ -19,14 +19,14 @@ const ProjectCard = (props) => {
     <div className="container-fluid card projectCard">
       <h3>{project_name}</h3>
       <img className="projectImages" src={project_image} alt={project_name} />
-      <div className="container-fluid text">
+      <div className="text">
         <p>{languages}</p>
         <p>{description}</p>
         <p>{technology}</p>
+        <a className="projectLink" href={project_URL}>
+          See the repo for: {project_name}!
+        </a>
       </div>
-      <a className="Images" href={project_URL}>
-        See the repo for: {project_name}!
-      </a>
     </div>
   );
 };
