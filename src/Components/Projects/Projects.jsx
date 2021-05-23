@@ -1,6 +1,6 @@
 import emoji from "../../assets/Images/emojiPedia.png";
 import keeper from "../../assets/Images/Keeper.png";
-import auth from "../../assets/Images/microsoftauthenticator.jpg";
+import ecomm from "../../assets/Images/ecommerce.png";
 import Dice from "../../assets/Images/diceGameImage.png";
 import Drum from "../../assets/Images/DrumKit.png";
 import Simon from "../../assets/Images/SimonSays.png";
@@ -10,13 +10,13 @@ import Wulf from "../../assets/Images/wulfbrandinglogoblue.png";
 
 const Projects = [
   {
-    project_name: "Authenticator",
-    project_image: auth,
-    project_URL: "https://github.com/CNFishead/authentication",
-    languages: "HTML, JavaScript, CSS",
-    description:
-      "A brief introduction to tracking a user-login, and authenticating with google sign in.",
-    technology: "Node.JS, Mongoose, EJS",
+    project_name: "E-Commerce Page",
+    project_image: ecomm,
+    project_URL: "https://github.com/CNFishead/eCommerce-Page",
+    languages: "MERN Stack",
+    description: `A simple E-Commerce page built on the MERN stack, meant to be scalable.`,
+    technology: "Node.JS, Mongoose, React, Redux, Express",
+    liveProject: "https://e-commerce-page.herokuapp.com/",
   },
   {
     project_name: "Emojipedia",
@@ -27,6 +27,7 @@ const Projects = [
       "A React single page web-app that displays an encylcopedia of emjoi's," +
       " It can be updated to hold more emoji's and will display them all in a card formation",
     technology: "React, CodeSandbox.io",
+    liveProject: "",
   },
   {
     project_name: "Keeper-App",
@@ -36,6 +37,7 @@ const Projects = [
     description:
       "A To-do list made with React Components which keeps track of state for the items.",
     technology: "React, CodeSandbox.io",
+    liveProject: "",
   },
   {
     project_name: "Dice Game",
@@ -44,6 +46,7 @@ const Projects = [
     languages: "JavaScript, HTML, CSS",
     description: "A two player dice game, who will win at random chance?",
     technology: "Atom",
+    liveProject: "",
   },
   {
     project_name: "Simon Says",
@@ -53,6 +56,7 @@ const Projects = [
     description:
       "The classic game of simon says, Test your memory and see how long you can last against simon.",
     technology: "Atom",
+    liveProject: "",
   },
   {
     project_name: "Drum Kit",
@@ -62,6 +66,7 @@ const Projects = [
     description:
       "A single page application that teaches the fundamentals of event listeners.",
     technology: "Atom",
+    liveProject: "",
   },
   {
     project_name: "TinDog",
@@ -70,15 +75,16 @@ const Projects = [
     languages: "HTML, CSS",
     description: "A Mock single-page spoof of Tinder",
     technology: "Atom",
+    liveProject: "",
   },
   {
     project_name: "Tip Calculator",
     project_image: TipCalculator,
-    project_URL: "https://github.com/CNFishead/TipCalculator",
-    languages: "Python",
-    description:
-      "A simple Tip calculator app, it takes the amount of the bill, and the amount of people splitting the bill, applies a 15% tip, and evenly distributes it amongst the payers.",
-    technology: "Python3.5, TKinter",
+    project_URL: "https://github.com/CNFishead/TipCalculatorReact",
+    languages: "React",
+    description: `A simple Tip calculator app, it takes the amount of the bill, and the amount of people splitting the bill, applies a 15% tip, and evenly distributes it amongst the payers.`,
+    technology: "React",
+    liveProject: "https://tip-calculator-zeta.vercel.app/",
   },
 ];
 

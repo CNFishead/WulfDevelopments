@@ -13,6 +13,7 @@ const ProjectCard = (props) => {
     languages,
     description,
     technology,
+    liveProject,
   } = props.data;
 
   return (
@@ -20,12 +21,25 @@ const ProjectCard = (props) => {
       <h3>{project_name}</h3>
       <img className="projectImages" src={project_image} alt={project_name} />
       <div className="text">
-        <p>{languages}</p>
-        <p>{description}</p>
-        <p>{technology}</p>
+        {languages != "" ? <p>{languages}</p> : <p>No Languages provided</p>}
+        {description != "" ? (
+          <p>{description}</p>
+        ) : (
+          <p>No descritption provided</p>
+        )}
+        {technology != "" && <p>{technology}</p>}
         <a className="projectLink" href={project_URL}>
           See the repo for: {project_name}!
         </a>
+        {liveProject != "" ? (
+          <div className="container-fluid">
+            <p>
+              See the Live project: <a href={liveProject}>{project_name}</a>
+            </p>
+          </div>
+        ) : (
+          <p></p>
+        )}
       </div>
     </div>
   );

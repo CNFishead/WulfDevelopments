@@ -88,6 +88,14 @@ const About = () => {
           wants to change the world through code. Automating processes and parts
           of life to make living easier.
         </p>
+        <p className="storyText">
+          Austin would begin to pursue a job at first with CookSystem a
+          technical recruiting company that takes Jr. Software Developers, train
+          them, and place them with a job. Here Austin was able to gather the
+          skills necessary for his next step in life. Salt Shaker Media. Salt
+          Shaker Media is Austin's first professional experience in the field of
+          Software Development.
+        </p>
       </div>
     </div>
   );
