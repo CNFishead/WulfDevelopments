@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/WulfDevelopments/static/css/main.2192af6a.chunk.css",
-    "main.js": "/WulfDevelopments/static/js/main.24af3eab.chunk.js",
-    "main.js.map": "/WulfDevelopments/static/js/main.24af3eab.chunk.js.map",
+    "main.js": "/WulfDevelopments/static/js/main.afae3c99.chunk.js",
+    "main.js.map": "/WulfDevelopments/static/js/main.afae3c99.chunk.js.map",
     "runtime-main.js": "/WulfDevelopments/static/js/runtime-main.339a59c3.js",
     "runtime-main.js.map": "/WulfDevelopments/static/js/runtime-main.339a59c3.js.map",
     "static/css/2.150d169a.chunk.css": "/WulfDevelopments/static/css/2.150d169a.chunk.css",
@@ -17,12 +17,12 @@
     "static/media/Keeper.62358103.png": "/WulfDevelopments/static/media/Keeper.62358103.png",
     "static/media/SimonSays.3e7b1c3c.png": "/WulfDevelopments/static/media/SimonSays.3e7b1c3c.png",
     "static/media/TinDogPic.6ddac56c.png": "/WulfDevelopments/static/media/TinDogPic.6ddac56c.png",
-    "static/media/TipCalculator.a05c415b.png": "/WulfDevelopments/static/media/TipCalculator.a05c415b.png",
+    "static/media/TipCalculator.2fe2e053.png": "/WulfDevelopments/static/media/TipCalculator.2fe2e053.png",
     "static/media/WulfBrandingLogoLightSmall.95c9816e.png": "/WulfDevelopments/static/media/WulfBrandingLogoLightSmall.95c9816e.png",
     "static/media/diceGameImage.5c5a9cd9.png": "/WulfDevelopments/static/media/diceGameImage.5c5a9cd9.png",
+    "static/media/ecommerce.941cf272.png": "/WulfDevelopments/static/media/ecommerce.941cf272.png",
     "static/media/emojiPedia.300c0641.png": "/WulfDevelopments/static/media/emojiPedia.300c0641.png",
     "static/media/headshot.04f99695.jpg": "/WulfDevelopments/static/media/headshot.04f99695.jpg",
-    "static/media/microsoftauthenticator.ddae1f35.jpg": "/WulfDevelopments/static/media/microsoftauthenticator.ddae1f35.jpg",
     "static/media/wulfbrandinglogoblue.b67c1c8e.png": "/WulfDevelopments/static/media/wulfbrandinglogoblue.b67c1c8e.png"
   },
   "entrypoints": [
@@ -30,6 +30,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.bbb67493.chunk.js",
     "static/css/main.2192af6a.chunk.css",
-    "static/js/main.24af3eab.chunk.js"
+    "static/js/main.afae3c99.chunk.js"
   ]
 }
